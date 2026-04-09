@@ -1,77 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Luxury Guest House | Book Your Stay</title>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Serenity Guest House | Luxury Stay</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <header>
-    <div class="container nav">
-      <h1 class="logo">🌿 Serenity Guest House</h1>
-      <nav>
-        <a href="#rooms">Rooms</a>
-        <a href="#amenities">Amenities</a>
-        <a href="#booking">Book Now</a>
-      </nav>
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="container">
+    <h1 class="logo">Serenity Guest House</h1>
+    <nav>
+      <a href="#rooms">Rooms</a>
+      <a href="#amenities">Amenities</a>
+      <a href="#booking" class="btn-nav">Book Now</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-overlay">
+    <h2>Luxury • Comfort • Peace</h2>
+    <p>A premium 6‑room guest house loved by international travelers</p>
+    <a href="#booking" class="btn-primary">Reserve Your Stay</a>
+  </div>
+</section>
+
+<!-- ROOMS -->
+<section id="rooms" class="section">
+  <h2 class="section-title">Our Rooms</h2>
+
+  <div class="rooms">
+    <div class="room">
+      <img src="assets/images/room1.jpg" alt="">
+      <h3>Luxury Suite</h3>
+      <p>Elegant space with premium finishes.</p>
     </div>
-  </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h2>Experience Comfort, Luxury & Peace</h2>
-      <p>A premium 6-room guest house loved by both local and international travelers.</p>
-      <a href="#booking" class="btn-primary">Book Your Stay</a>
+    <div class="room">
+      <img src="assets/images/room2.jpg" alt="">
+      <h3>Executive Room</h3>
+      <p>Perfect for business & long stays.</p>
     </div>
-  </section>
 
-  <!-- Rooms Section -->
-  <section id="rooms" class="section">
-    <div class="container">
-      <h2 class="section-title">Our Rooms</h2>
-      <div class="rooms-grid">
+    <div class="room">
+      <img src="assets/images/room3.jpg" alt="">
+      <h3>Deluxe Room</h3>
+      <p>Comfort meets modern design.</p>
+    </div>
 
-        <!-- Repeat for 6 rooms -->
-        <div class="room-card">
-          <div class="image-placeholder">Room Image</div>
-          <h3>Luxury Suite</h3>
-          <p>Spacious, elegant room with modern amenities.</p>
-        </div>
+    <div class="room">
+      <img src="assets/images/room4.jpg" alt="">
+      <h3>Family Room</h3>
+      <p>Spacious and relaxing.</p>
+    </div>
 
-        <div class="room-card">
-          <div class="image-placeholder">Room Image</div>
-          <h3>Executive Room</h3>
-          <p>Perfect for business and international guests.</p>
-        </div>
+    <div class="room">
+      <img src="assets/images/room5.jpg" alt="">
+      <h3>Garden View</h3>
+      <p>Peaceful scenery and calm.</p>
+    </div>
 
-        <div class="room-card">
-          <div class="image-placeholder">Room Image</div>
-          <h3>Deluxe Room</h3>
-          <p>Comfort, style and relaxation combined.</p>
-        </div>
+    <div class="room">
+      <img src="assets/images/room6.jpg" alt="">
+      <h3>Standard Room</h3>
+      <p>Affordable yet stylish.</p>
+    </div>
+  </div>
+</section>
 
-        <div class="room-card">
-          <div class="image-placeholder">Room Image</div>
-          <h3>Family Room</h3>
-          <p>Ideal for couples or small families.</p>
-        </div>
+<!-- AMENITIES -->
+<section id="amenities" class="section light">
+  <h2 class="section-title">Amenities</h2>
+  <ul class="amenities">
+    <li>Free Wi‑Fi</li>
+    <li>Secure Parking</li>
+    <li>Daily Housekeeping</li>
+    <li>Airport Pickup</li>
+    <li>Smart TVs</li>
+    <li>Breakfast Available</li>
+  </ul>
+</section>
 
-        <div class="room-card">
-          <div class="image-placeholder">Room Image</div>
-          <h3>Garden View Room</h3>
-          <p>Relax with peaceful outdoor scenery.</p>
-        </div>
+<!-- BOOKING -->
+<section id="booking" class="section booking">
+  <h2>Book & Pay Online</h2>
+  <p>Secure payments for international guests</p>
+  <button id="payBtn">Proceed to Payment</button>
+</section>
 
-        <div class="room-card">
-          <div class="image-placeholder">Room Image</div>
-          <h3>Standard Room</h3>
+<footer>
+  <p>© 2026 Serenity Guest House</p>
+</footer>
 
+<script src="js/main.js"></script>
+</body>
+</html>
